@@ -1,0 +1,49 @@
+input {
+  font-size: 14px;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-radius: 0 0 5px 5px;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestions li:hover {
+  background-color: lightgray;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* .suggestions::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+} */
+
+.suggestions::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+
+.suggestions::-webkit-scrollbar-thumb:hover {
+  background: darkgrey
+}

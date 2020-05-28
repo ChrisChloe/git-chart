@@ -1,0 +1,63 @@
+.sidebar {
+  background-color: #30313f;
+  justify-content: center;
+}
+
+.header {
+  flex-direction: column;
+  padding: 15px;
+  background-color: white;
+}
+
+input, input:focus {
+  border: none;
+  outline: 0;
+}
+
+.user-input, input {
+  font-size: 24px;
+}
+
+.repo-input, input {
+  font-size: 14px;
+}
+
+.content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container-fluid {
+  background-color: #f1f2f5;
+}
+
+.card {
+  box-shadow: 1px 2px 2px lightgray;
+  margin-bottom: 30px;
+}
+
+.chart-card {
+  height: 60vh;
+}
+
+.card-header {
+  background-color: white;
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+.logo {
+  padding-top: 15px;
+  max-height: 70px;
+  pointer-events: none;
+}
+
+.custom-tooltip {
+  background-color: white;
+  box-shadow: 1px 2px 2px lightgray;
+  padding: 12px;
+  font-size: 14px;
+}
